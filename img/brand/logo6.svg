@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.0" id="svgRoot" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 640.46 295.56"
+	 style="enable-background:new 0 0 640.46 295.56;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<g>
+	<g id="rootGroup">
+		<path class="st0" d="M247.05,295.56h-62.18L384.71,12.02C390.19,4.24,398.37,0,407.88,0h62.18L270.22,283.54
+			C264.74,291.32,256.56,295.56,247.05,295.56z M108.3,295.56H0L199.84,12.02C205.32,4.24,213.5,0,223.01,0h108.3L131.47,283.54
+			C125.99,291.32,117.81,295.56,108.3,295.56z M531.93,0h80.18c15.61,0,28.35,12.73,28.35,28.35v267.21H503.44V150.3
+			c0-7.81-6.37-14.17-14.17-14.17h-53.28L531.93,0z"/>
+	</g>
+	<svg:script>
+		<![CDATA[                                  
+var svgElement = document.getElementById("svgRoot"); 
+var gElement = document.getElementById("rootGroup"); 
+var b = gElement.getBBox();                            
+svgElement.setAttribute("width", b.width);           
+svgElement.setAttribute("height", b.height);         
+svgElement.setAttribute("viewBox", [b.x,b.y,b.width,b.height]); 
+
+			]]>
+	</svg:script>
+</g>
+</svg>

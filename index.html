@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wei Motor</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- icon css -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================== top header ================= -->
+    <div class="top-header">
+        <div class="out-box">
+            <div class="inside-box">
+                <div class="col-1">
+                    <span><i class='bx bxs-envelope'></i>info@weimotor.com</span>
+                    <span><i class='bx bxs-phone-call'></i>+62 813 3470 0902</span>
+                    <span><i class='bx bxs-alarm'></i>Sen - Jum (08:00- 16:00 WIB)</span>
+                </div>
+
+
+
+                <div class="col-2">
+                    <a href="#"><i class='bx bx-arrow-to-right'></i>Login</a>
+                    <a href="#"><i class='bx bxs-user'></i></i>Register</a>
+                    <span>Follow Us: </span>
+                    <div class="social">
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-instagram'></i>
+                        <i class='bx bxl-youtube'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================== navbar ===================== -->
+    <header class="header">
+        <div class="logo">
+            <img src="./img/logo/logo.png" alt="">
+        </div>
+        <nav>
+            <div class="navbar">
+                <ul class="navLink">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Inventory<i class='bx bxs-chevron-down'></i></a>
+                        <ul class="drop-down">
+                            <li><a href="#">Inventory Grid</a></li>
+                            <li><a href="#">Inventory List</a></li>
+                            <li><a href="#">Inventory Single</a></li>
+                        </ul>
+                    </li>
+
+
+                    <!-- =========== primary menu ============ -->
+                    <li><a href="#">Pages<i class='bx bxs-chevron-down'></i></a>
+                        <ul class="drop-down">
+                            <li><a href="#">About</a></li>
+                            <!-- ===== second menus ======= -->
+                            <li><a href="#">Car Listing<i class='bx bx-chevron-right chev'></i></i></a>
+                                <ul class="drop-down-two">
+                                    <!-- ================ third menu ============ -->
+                                    <li><a href="#">Listing Grid</a></li>
+                                    <li><a href="#">Listing List</a></li>
+                                    <li><a href="#">Listing Single</a></li>
+                                    <li><a href="#">Compare</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">My Account<i class='bx bx-chevron-right chev'></i></i></a>
+                                <ul class="drop-down-three">
+                                    <li><a href="#">Dashboard</a></li>
+                                    <li><a href="#">My Profile</a></li>
+                                    <li><a href="#">My Listing</a></li>
+                                    <li><a href="#">Add Listing</a></li>
+                                    <li><a href="#">My Favorites</a></li>
+                                    <li><a href="#">Message</a></li>
+                                    <li><a href="#">Setting</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Authentication<i class='bx bx-chevron-right chev'></i></a>
+                                <ul class="drop-down-four">
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Forgot Password</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Services<i class='bx bx-chevron-right chev'></i></a>
+                                <ul class="drop-down-five">
+                                    <li><a href="#">Grooming</a></li>
+                                    <li><a href="#">Insurance</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Dealer</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Pricing Plan</a></li>
+                            <li><a href="#">Calculator</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Shop<i class='bx bxs-chevron-down'></i></a>
+                        <ul class="drop-down">
+                            <li><a href="#">Rims</a></li>
+                            <li><a href="#">Tyres</a></li>
+                            <li><a href="#">Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</i></a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <i class='bx bx-search'></i>
+                <i class='bx bx-cart-download cart'></i>
+                <button class="addBtn"><i class='bx bx-plus-circle'></i>Add List</button>
+                <i class='bx bx-menu-alt-left' id="menuBtn"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- ===================== home section start ====================== -->
+
+    <div class="home">
+        <div class="swiper myHome">
+            <div class="swiper-wrapper">
+
+                <!-- ========== slide 1 =========== -->
+                <div class="swiper-slide slide slide-one">
+                    <div class="col-1">
+                        <h4>Welcome to Wei Motor</h4>
+                        <h1>best way to find <br> your <span>dream</span> car</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aspernatur cupiditate
+                            dignissimos!
+                            Deserunt quam autem, porro voluptas aliquam nulla laboriosam numquam iusto temporibus,
+                            facilis
+                            molestias sed eaque quas in accusantium!</p>
+
+                        <div class="button">
+                            <button type="button" class="about"><i class='bx bx-right-arrow-alt'></i>About</button>
+                            <button type="submit" class="learn"><i class='bx bx-right-arrow-alt'></i>Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <img src="./img/home/mercyamg.png">
+                    </div>
+                </div>
+
+
+                <!--============== slide 2 ============== -->
+                <div class="swiper-slide slide slide-two">
+                    <div class="col-1">
+                        <h4>Welcome to Wei Motor</h4>
+                        <h1>best way to find <br> your <span>dream</span> car</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aspernatur cupiditate
+                            dignissimos!
+                            Deserunt quam autem, porro voluptas aliquam nulla laboriosam numquam iusto temporibus,
+                            facilis
+                            molestias sed eaque quas in accusantium!</p>
+
+                        <div class="button">
+                            <button type="button" class="about"><i class='bx bx-right-arrow-alt'></i>About</button>
+                            <button type="submit" class="learn"><i class='bx bx-right-arrow-alt'></i>Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <img src="./img/home/bmwcar.png" alt="">
+                    </div>
+                </div>
+
+
+                <!-- ================ slide 3 ============== -->
+                <div class="swiper-slide slide slide-three">
+                    <div class="col-1">
+                        <h4>Welcome to Wei Motor</h4>
+                        <h1>best way to find <br> your <span>dream</span> car</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aspernatur cupiditate
+                            dignissimos!
+                            Deserunt quam autem, porro voluptas aliquam nulla laboriosam numquam iusto temporibus,
+                            facilis
+                            molestias sed eaque quas in accusantium!</p>
+
+                        <div class="button">
+                            <button type="button" class="about"><i class='bx bx-right-arrow-alt'></i>About</button>
+                            <button type="submit" class="learn"><i class='bx bx-right-arrow-alt'></i>Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <img src="./img/home/landcar.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Find Car Section Start -->
+
+    <div class="search">
+        <div class="find">
+            <h3>Let's Find Your Perfect Car</h3>
+            <div class="find-row">
+                <div class="find-item">
+                    <h4>Car Condition</h4>
+                    <select>
+                        <option value="">All Status</option>
+                        <option value="">New Car</option>
+                        <option value="">Used Car</option>
+                    </select>
+                </div>
+                <div class="find-item">
+                    <h4>Brand Name</h4>
+                    <select>
+                        <option value="">All Brand</option>
+                        <option value="">Honda</option>
+                        <option value="">Toyota</option>
+                        <option value="">Mercedes Benz</option>
+                        <option value="">BMW</option>
+                        <option value="">Land Rover</option>
+                    </select>
+                </div>
+                <div class="find-item">
+                    <h4>Car Model</h4>
+                    <select>
+                        <option value="">All Model</option>
+                        <option value="">Sedan</option>
+                        <option value="">SUV</option>
+                        <option value="">Sport</option>
+                        <option value="">Hatchback</option>
+                        <option value="">Crossover</option>
+                        <option value="">MPV</option>
+                    </select>
+                </div>
+                <div class="find-item">
+                    <h4>All Years</h4>
+                    <select>
+                        <option value="">Under 2015</option>
+                        <option value="">Under 2020</option>
+                        <option value="">Under 2025</option>
+                    </select>
+                </div>
+                <div class="find-item">
+                    <h4>Choose Milleage</h4>
+                    <select>
+                        <option value="">All Milleage</option>
+                        <option value="">Under 5000 Miles</option>
+                        <option value="">Under 10000 Miles</option>
+                        <option value="">Under 15,000 Miles</option>
+                    </select>
+                </div>
+                <div class="find-item">
+                    <h4>Price Range</h4>
+                    <select>
+                        <option value="">All Price</option>
+                        <option value="">$30,000-$50,000</option>
+                        <option value="">$60,000-$100,000</option>
+                        <option value="">Up $100,000</option>
+                    </select>
+                </div>
+                <div class="find-item">
+                    <h4>Body Type</h4>
+                    <select>
+                        <option value="">All Body Type</option>
+                        <option value="">Coupe</option>
+                        <option value="">Compact</option>
+                        <option value="">Wagon</option>
+                        <option value="">Convertible</option>
+                    </select>
+                </div>
+
+                <div class="search-btn">
+                    <button><i class='bx bx-search'></i>Find Your Car</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service section start -->
+
+    <section class="market">
+        <div class="col-3">
+            <img class="one" src="./img/quality/ford.png" alt="">
+            <div class="service">
+                <img class="two" src="./img/quality/shield.png" alt="">
+                <span>20 years of <br> quality service</span>
+            </div>
+        </div>
+
+
+        <div class="col-4">
+            <h4><i class='bx bx-car'></i>About US</h4>
+            <h3>world largest <span>Car <br>Dealer</span> Marketplace</h3>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate alias repellat quae
+                delectus
+                deserunt quasi, facilis magni at numquam.</p>
+
+            <p class="p1"><i class='bx bx-last-page'></i>Lorem ipsum dolor sit amet</p>
+            <p class="p1"><i class='bx bx-last-page'></i>Lorem ipsum dolor sit amet</p>
+            <p class="p1"><i class='bx bx-last-page'></i>Lorem ipsum dolor sit amet</p>
+
+            <button>Disover More<i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+    </section>
+
+
+    <!-- ================== counter section start =================== -->
+
+    <div class="counter">
+        <div class="container">
+            <img src="./img/icons/accept-car.png" alt="">
+            <span class=" num" data-value="200">000</span>
+            <span class="text"><i class='bx bx-plus'></i>Available Car</span>
+        </div>
+
+        <div class="container">
+            <img src="./img/icons/support.png" alt="">
+            <span class="num" data-value="2000">000</span>
+            <span class="text"><i class='bx bx-plus'></i>Happy Client</span>
+        </div>
+
+        <div class="container">
+            <img src="./img/icons/teamwork.png" alt="">
+            <span class="num" data-value="500">000</span>
+            <span class="text"><i class='bx bx-plus'></i>Team Workers</span>
+        </div>
+
+        <div class="container">
+            <img src="./img/icons/multitasking.png" alt="">
+            <span class="num" data-value="30">000</span>
+            <span class="text"><i class='bx bx-plus'></i>Years of Experience</span>
+        </div>
+    </div>
+
+
+    <!-- ============================ arrival section ================= -->
+
+    <section class="arrivals">
+        <h4><i class='bx bxs-car'></i>new arrivals</h4>
+        <h1>let's check latest <span>cars</span></h1>
+
+        <div class="arr-row">
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/a1.jpg" alt="">
+                </div>
+
+                <h5>Mercedes Bnez Car</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-error-circle'></i>Automatic</span>
+                    <span><i class='bx bx-label'></i>10.15km</span>
+                    <span><i class='bx bx-car'></i>Model 2023</span>
+                    <span><i class='bx bx-target-lock'></i>Hybrid</span>
+                </div>
+                <div class="price">
+                    <p>$55,180</p>
+                    <button>Details</button>
+                </div>
+            </div>
+
+
+            <!--  ===================== arrivals 2 ======================-->
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/a2.jpg" alt="">
+                </div>
+
+                <h5>Mercedes Bnez Car</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-error-circle'></i>Automatic</span>
+                    <span><i class='bx bx-label'></i>10.15km</span>
+                    <span><i class='bx bx-car'></i>Model 2023</span>
+                    <span><i class='bx bx-target-lock'></i>Hybrid</span>
+                </div>
+                <div class="price">
+                    <p>$55,180</p>
+                    <button>Details</button>
+                </div>
+            </div>
+
+            <!--  ===================== arrivals 3 ======================-->
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/a3.jpg" alt="">
+                </div>
+
+                <h5>Mercedes Bnez Car</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-error-circle'></i>Automatic</span>
+                    <span><i class='bx bx-label'></i>10.15km</span>
+                    <span><i class='bx bx-car'></i>Model 2023</span>
+                    <span><i class='bx bx-target-lock'></i>Hybrid</span>
+                </div>
+                <div class="price">
+                    <p>$55,180</p>
+                    <button>Details</button>
+                </div>
+            </div>
+
+            <!--  ===================== arrivals 4 ======================-->
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/a4.jpg" alt="">
+                </div>
+
+                <h5>Mercedes Bnez Car</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-error-circle'></i>Automatic</span>
+                    <span><i class='bx bx-label'></i>10.15km</span>
+                    <span><i class='bx bx-car'></i>Model 2023</span>
+                    <span><i class='bx bx-target-lock'></i>Hybrid</span>
+                </div>
+                <div class="price">
+                    <p>$55,180</p>
+                    <button>Details</button>
+                </div>
+            </div>
+
+            <!--  ===================== arrivals 5 ======================-->
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/a11.jpg" alt="">
+                </div>
+
+                <h5>Mercedes Bnez Car</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-error-circle'></i>Automatic</span>
+                    <span><i class='bx bx-label'></i>10.15km</span>
+                    <span><i class='bx bx-car'></i>Model 2023</span>
+                    <span><i class='bx bx-target-lock'></i>Hybrid</span>
+                </div>
+                <div class="price">
+                    <p>$55,180</p>
+                    <button>Details</button>
+                </div>
+            </div>
+
+            <!--  ===================== arrivals 6 ======================-->
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/a10.jpg" alt="">
+                </div>
+
+                <h5>Mercedes Bnez Car</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-error-circle'></i>Automatic</span>
+                    <span><i class='bx bx-label'></i>10.15km</span>
+                    <span><i class='bx bx-car'></i>Model 2023</span>
+                    <span><i class='bx bx-target-lock'></i>Hybrid</span>
+                </div>
+                <div class="price">
+                    <p>$55,180</p>
+                    <button>Details</button>
+                </div>
+            </div>
+
+            <!--  ===================== arrivals 7 ======================-->
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/a7.jpg" alt="">
+                </div>
+
+                <h5>Mercedes Bnez Car</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-error-circle'></i>Automatic</span>
+                    <span><i class='bx bx-label'></i>10.15km</span>
+                    <span><i class='bx bx-car'></i>Model 2023</span>
+                    <span><i class='bx bx-target-lock'></i>Hybrid</span>
+                </div>
+                <div class="price">
+                    <p>$55,180</p>
+                    <button>Details</button>
+                </div>
+            </div>
+
+            <!--  ===================== arrivals 8 ======================-->
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/a8.jpg" alt="">
+                </div>
+
+                <h5>Mercedes Bnez Car</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-error-circle'></i>Automatic</span>
+                    <span><i class='bx bx-label'></i>10.15km</span>
+                    <span><i class='bx bx-car'></i>Model 2023</span>
+                    <span><i class='bx bx-target-lock'></i>Hybrid</span>
+                </div>
+                <div class="price">
+                    <p>$55,180</p>
+                    <button>Details</button>
+                </div>
+            </div>
+
+            <!--  ===================== arrivals 9 ======================-->
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/a9.jpg" alt="">
+                </div>
+
+                <h5>Mercedes Bnez Car</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-error-circle'></i>Automatic</span>
+                    <span><i class='bx bx-label'></i>10.15km</span>
+                    <span><i class='bx bx-car'></i>Model 2023</span>
+                    <span><i class='bx bx-target-lock'></i>Hybrid</span>
+                </div>
+                <div class="price">
+                    <p>$55,180</p>
+                    <button>Details</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="load">Load More<i class='bx bx-sync'></i></button>
+    </section>
+
+
+    <!-- -================ body type section ============== -->
+
+    <section class="type">
+        <h4><i class='bx bx-car'></i>Car Category</h4>
+        <h1>Car By Body <span>Types</span></h1>
+
+        <div class="type-row">
+            <div class="type-col">
+                <img src="./img/type/coupe.png" alt="">
+                <h5>Coupe</h5>
+            </div>
+            <div class="type-col">
+                <img src="./img/type/sedan.png" alt="">
+                <h5>Sedan</h5>
+            </div>
+            <div class="type-col">
+                <img src="./img/type/sport.png" alt="">
+                <h5>Sport</h5>
+            </div>
+            <div class="type-col">
+                <img src="./img/type/hatchback.png" alt="">
+                <h5>Hatchback</h5>
+            </div>
+            <div class="type-col">
+                <img class="mpv" src="./img/type/mpv.png" alt="">
+                <h5>MPV</h5>
+            </div>
+            <div class="type-col">
+                <img src="./img/type/convertible.png" alt="">
+                <h5>Convertible</h5>
+            </div>
+        </div>
+    </section>
+    <!-- swiper js  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- custom javascript -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
